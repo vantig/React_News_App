@@ -1,0 +1,19 @@
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #343a40;
+    height: 80px;
+    width: 100%;
+    ul{
+        display: flex;
+        li{
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+}
+body{
+    position: relative;
+    padding-bottom: 80px;
+}

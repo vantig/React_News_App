@@ -15,8 +15,8 @@ const App = () => {
             <Layout>
                 <Route exact path='/' component={PostsPage}/>
                 <Route path='/news/:id' component={Post}/>
-                <Route path='/news/:id' component={Login}/>
-                <Route path='/news/:id' component={SignUp}/>
+                <Route path='/login' component={Login}/>
+                <Route path='/signup' component={SignUp}/>
             </Layout>
         </Switch>
         </layout>
