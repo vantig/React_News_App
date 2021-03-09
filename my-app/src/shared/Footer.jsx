@@ -8,6 +8,7 @@ const Footer = () => {
     return (
         <>
             <footer>
+                <p>© Gordeychik Ivan 2021</p>
                 <ul>
                     <li><a href="https://www.facebook.com/"><img src={facebook} alt="facebook"/></a></li>
                     <li><a href="https://twitter.com/"><img src={twitter} alt="twitter"/></a></li>

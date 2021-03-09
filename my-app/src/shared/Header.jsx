@@ -13,7 +13,7 @@ const Header = () => {
                         <Nav.Link href="/">Posts</Nav.Link>
                     </Nav>
                     <Nav>
-                        <NavDropdown title="Account" id="collasible-nav-dropdown">
+                        <NavDropdown title="Account" id="collapsible-nav-dropdown">
                             <NavDropdown.Item href="login">LogIn</NavDropdown.Item>
                             <NavDropdown.Item href="signup">SignUp</NavDropdown.Item>
                             <NavDropdown.Divider />
