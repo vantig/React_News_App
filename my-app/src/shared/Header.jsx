@@ -6,11 +6,11 @@ const Header = () => {
     return (
         <>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand href="/">News</Navbar.Brand>
+                <Navbar.Brand href="/">Pizza</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="/">Posts</Nav.Link>
+                        <Nav.Link href="/">Menu</Nav.Link>
                     </Nav>
                     <Nav>
                         <NavDropdown title="Account" id="collapsible-nav-dropdown">
