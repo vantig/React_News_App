@@ -2,11 +2,11 @@ import React from 'react';
 import  { Switch, Route} from "react-router-dom";
 
 
-import PostsPage from "./components/user/Posts.Page";
+import PostsPage from "./components/user/PostsPage";
 import Post from "./components/user/Post";
 import SignUp from "./components/user/SignUp";
-import Login from "./components/user/Login";
-import Layout from "./shared/Layout";
+import Login from "./components/user/SignIn";
+import Layout from "./components/shared/Layout";
 
 const App = () => {
     return (
