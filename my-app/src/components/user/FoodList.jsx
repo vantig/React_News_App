@@ -35,6 +35,7 @@ const renderFoodList = () => {
     return foodList.map(
         (item, idx) =>
             <FoodItem
+                key={`${item.src}${idx}`}
                 variant={colors[idx % colors.length]}
                 src={item.src}
                 title={item.title}

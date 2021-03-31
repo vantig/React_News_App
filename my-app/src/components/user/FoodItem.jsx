@@ -13,9 +13,7 @@ const customStyles = {
         background: '#d0d0fa'
     }
 };
-Modal.setAppElement = function (s) {
-    
-}
+
 Modal.setAppElement('#root');
 
 
